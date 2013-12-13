@@ -1,0 +1,21 @@
+#InfiniteAnvils ~ Made by PimpDuck#
+
+name: InfiniteAnvils
+main: me.PimpDuck.InfiniteAnvils.Main
+version: 1.0
+
+commands:
+   iatoggle:
+      description: Toggles whether that certain block is infinite
+      usage: /iatoggle
+   iaview:
+      description: Tells you whether a block is infinite or not
+      usage: /iaview
+    
+permissions:
+   ia.toggle:
+      description: Allows toggling of an infinite block
+      default: op
+   ia.view:
+      description: Allows viewing of whether a block is infinite
+      default: op
